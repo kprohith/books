@@ -13,7 +13,7 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Run Bookshelf Action
-        uses: AnandChowdhary/bookshelf-action@HEAD
+        uses: kprohith/bookshelf-action@HEAD
         with:
           command: "onIssueComment"
         env:
